@@ -1,0 +1,85 @@
+{
+  "app_name": "koopaApp_MalLoc_1_9_11",
+  "groundtruth": [
+    {
+      "behavior_id": 1,
+      "behavior_name": "Privacy Stealing",
+      "class_name": "Llu/snt/trux/koopaapp/ui/home/RequestData1Fragment;",
+      "class_file": "smali_classes6/lu/snt/trux/koopaapp/ui/home/RequestData1Fragment.smali",
+      "methods": [
+        {
+          "line": 20,
+          "signature": ".method private fetchAndLogContacts()V"
+        },
+        {
+          "line": 179,
+          "signature": ".method static synthetic lambda$fetchAndLogContacts$0(Lorg/json/JSONArray;)V"
+        },
+        {
+          "line": 318,
+          "signature": ".method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        {
+          "line": 367,
+          "signature": ".method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V"
+        }
+      ]
+    },
+    {
+      "behavior_id": 9,
+      "behavior_name": "Aggressive Advertising",
+      "class_name": "Llu/snt/trux/koopaapp/ui/home/RequestData2Fragment;",
+      "class_file": "smali_classes6/lu/snt/trux/koopaapp/ui/home/RequestData2Fragment.smali",
+      "methods": [
+        {
+          "line": 139,
+          "signature": ".method synthetic lambda$onCreateView$2$lu-snt-trux-koopaapp-ui-home-RequestData2Fragment(Landroid/view/View;)V"
+        },
+        {
+          "line": 202,
+          "signature": ".method synthetic lambda$onCreateView$3$lu-snt-trux-koopaapp-ui-home-RequestData2Fragment(Landroid/widget/FrameLayout;)V"
+        },
+        {
+          "line": 229,
+          "signature": ".method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        }
+      ]
+    },
+    {
+      "behavior_id": 11,
+      "behavior_name": "Tricky Behavior",
+      "class_name": "Llu/snt/trux/koopaapp/ui/home/RequestData3Fragment;",
+      "class_file": "smali_classes6/lu/snt/trux/koopaapp/ui/home/RequestData3Fragment.smali",
+      "method_groups": [
+        [
+          {
+            "line": 20,
+            "signature": ".method private hideApp()V"
+          },
+          {
+            "line": 236,
+            "signature": ".method synthetic lambda$onCreateView$1$lu-snt-trux-koopaapp-ui-home-RequestData3Fragment(Landroid/view/View;)V"
+          },
+          {
+            "line": 254,
+            "signature": ".method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+          }
+        ],
+        [
+          {
+            "line": 98,
+            "signature": ".method private toggleAppIcon()V"
+          },
+          {
+            "line": 218,
+            "signature": ".method synthetic lambda$onCreateView$0$lu-snt-trux-koopaapp-ui-home-RequestData3Fragment(Landroid/view/View;)V"
+          },
+          {
+            "line": 254,
+            "signature": ".method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+          }
+        ]
+      ]
+    }
+  ]
+}

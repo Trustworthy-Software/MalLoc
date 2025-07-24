@@ -1,0 +1,27 @@
+{
+    "use_call_graph": false,
+    "selected_behaviors": [1, 9, 11],
+    "llm_configs": [
+        {
+            "name": "phi4",
+            "type": "ollama",
+            "model": "phi4",
+            "base_url": "http://localhost:11434"
+        },
+        {
+            "name": "gpt-4.1",
+            "type": "openai",
+            "model": "gpt-4.1",
+            "base_url": "https://api.openai.com/v1"
+        }
+    ],
+    "input_type": "local",
+    "analysis_approach": "baseline",
+    "input_path": "0_Data",
+    "hash_file": "0_Data/MalApp/Mal_hash.txt",
+    "output_dir": "0_Data/Results/MalLoc/Malapp_baseline",
+    "smali_subdir": "smali_classes6/org/example/app/Malapp",
+    "token_threshold": 102400,
+    "max_retries": 3,
+    "log_level": "INFO"
+} 

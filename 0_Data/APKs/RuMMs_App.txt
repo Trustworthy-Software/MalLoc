@@ -1,0 +1,16 @@
+# RuMMs Malware Sample Information
+
+## Access Information
+The RuMMs malware sample used in our evaluation is a real-world Android malware. To maintain research ethics and comply with data sharing policies, we do not distribute the APK directly. Instead, please request access from the official MalRadar repository:
+
+https://malradar.github.io
+
+## Sample Details
+- **Hash (SHA-256)**: d130b94a85a8ded1f52469b68977f601617bd536df34c279d37674b03119eb9c
+- **Family**: RuMMs
+
+## Usage Instructions
+1. Request access to the MalRadar repository
+2. Download the sample using the provided hash
+3. Place the APK in the `0_Data/APKs/` directory
+4. Use the hash file `0_Data/apk_hashes.txt` for analysis

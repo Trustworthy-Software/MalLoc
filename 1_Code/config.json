@@ -1,0 +1,27 @@
+{
+    "use_call_graph": false,
+    "selected_behaviors": [1, 2, 3, 4, 11],
+    "llm_configs": [
+        {
+            "name": "phi4",
+            "type": "ollama",
+            "model": "phi4",
+            "base_url": "http://localhost:11434"
+        },
+        {
+            "name": "gpt-4.1",
+            "type": "openai",
+            "model": "gpt-4.1",
+            "base_url": "https://api.openai.com/v1"
+        }
+        
+    ],
+    "input_type": "local",
+    "analysis_approach": "progressive",
+    "input_path": "~/DATA/MalRadar",
+    "hash_file": "0_Data/apk_hashes.debug.txt",
+    "output_dir": "0_Data/Results/MalLoc/RuMMs",
+    "token_threshold": 102400,
+    "max_retries": 3,
+    "log_level": "INFO"
+} 
